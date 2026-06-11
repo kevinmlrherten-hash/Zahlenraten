@@ -8,12 +8,12 @@ public class NumberGuessGame {
         Random random = new Random();
         Scanner scanner = new Scanner(System.in);
 
-        int secretNumber = random.nextInt(100) + 1;
+        int secretNumber = random.nextInt(200) + 1;
         int guess = 0;
         int attempts = 0;
 
         System.out.println("=== Zahlenraten ===");
-        System.out.println("Ich habe eine Zahl zwischen 1 und 100 gewählt.");
+        System.out.println("Ich habe eine Zahl zwischen 1 und 200 gewählt.");
 
         while (guess != secretNumber) {
 
